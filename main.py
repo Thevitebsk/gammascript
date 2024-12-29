@@ -12,6 +12,6 @@ while len(cs)>p:
     elif b[0]=="show":print(v[b[1]])
     elif b[0]=="write":print(" ".join(b[1:]))
     elif b[0]=="ask":input()
-    elif b[0]=="#":pass
+    elif cd[p][0:1]=="//":...
     else:print("found error at block",p+1);break
     p+=1
