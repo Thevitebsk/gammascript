@@ -1,5 +1,5 @@
-print("gammascript");v={};f={}
-p=0;c=' ';cs=[];fs=[]
+print("gammascript");v={}
+p=0;c=' ';cs=[]
 while c!='':c=input();cs.append(c)
 cs.pop()
 while len(cs)>p:
